@@ -61,7 +61,7 @@ class Application(tkinter.Tk):
         self.bind_all("<Control-z>", self.undo)
         self.bind_all("<Control-y>", self.redo)
 
-        self.text = ScrolledText(self, state='normal', height=30, wrap='word', font = font, pady=2, padx=3, undo=True)
+        self.text = ScrolledText(self, state='normal', height=80, wrap='word', font = font, pady=2, padx=3, undo=True)
         self.text.grid(column=0, row=0, sticky='NSEW')
 
         # Frame configuration
@@ -198,6 +198,6 @@ class Application(tkinter.Tk):
 
 if __name__ == "__main__":
     app=Application()
-    app.title('Python Text Editor')
+    app.title('open source ver 1')
     app.option_add('*tearOff', False)
     app.mainloop()
