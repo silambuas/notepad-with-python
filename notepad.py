@@ -198,6 +198,6 @@ class Application(tkinter.Tk):
 
 if __name__ == "__main__":
     app=Application()
-    app.title('Silambu - Nptepad')
+    app.title('Silambu - Notepad')
     app.option_add('*tearOff', False)
     app.mainloop()
