@@ -198,6 +198,6 @@ class Application(tkinter.Tk):
 
 if __name__ == "__main__":
     app=Application()
-    app.title('open source ver 1')
+    app.title('Silambu - Nptepad')
     app.option_add('*tearOff', False)
     app.mainloop()
